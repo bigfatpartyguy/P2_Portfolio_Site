@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxim Morozov</title>
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="name">
+          <h1>
+            <span class="name-half">
+              <span class="name-left">maxim</span>
+            </span>
+            <span class="name-half">
+              <span class="name-right">morozov</span>
+            </span>
+          </h1>
+          <a class="home-logo" href="#">
+            <img class="logo" src="img/logo.svg" alt="maxim morozov website logo">
+          </a>
+        </div>
+        <!--Create a button for nav mobile menu-->
+        <button class="hamburger" type="button">
+          <span class="hamburger-inner"></span>
+        </button>
+        <h2>front-end developer</h2>
+      </header>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <section class="hero">
+          <picture>
+            <source media="(min-width: 1280px)" srcset="img/emile-perron-190221-unsplash-large.jpg, img/emile-perron-190221-unsplash-large_2x.jpg 2x">
+            <source media="(min-width: 640px)" srcset="img/emile-perron-190221-unsplash-medium.jpg, img/emile-perron-190221-unsplash-medium_2x.jpg 2x">
+            <source srcset="img/emile-perron-190221-unsplash-small.jpg, img/emile-perron-190221-unsplash-small_2x.jpg 2x">
+            <img src="img/emile-perron-190221-unsplash-large_large.jpg" alt="hero image">
+            <!--Credits: https://unsplash.com/@emilep-->
+          </picture>
+        </section>
+        <section id="work">
+          <h2>latest projects:</h2>
+          <ul class="work-grid">
+            <li class="work-card">
+              <div class="work-link" href="#">
+                <!--Link containing image-->
+                <a href="#">
+                  <picture>
+                    <source srcset="img/sergey-zolkin-403-unsplash-small.jpg, img/sergey-zolkin-403-unsplash-small_2x.jpg 2x">
+                    <img src="img/sergey-zolkin-403-unsplash-small.jpg" alt="stone framework">
+                    <!--Credits: https://unsplash.com/@szolkin-->
+                  </picture>
+                </a>
+                <!--Link for button-->
+                <a href="#" class="work-button">
+                  see project
+                </a>
+                <!--Link for overlay image whith color-->
+                <a href="#" class="overlay"></a>
+              </div>
+              <h3 class="work-name">type</h3>
+            </li>
+            <li class="work-card">
+              <div class="work-link" href="#">
+                <a href="#">
+                  <picture>
+                    <source srcset="img/manki-kim-269196-unsplash-small.jpg, img/manki-kim-269196-unsplash-small_2x.jpg 2x">
+                    <img src="img/manki-kim-269196-unsplash-small.jpg" alt="stone framework">
+                    <!--Credits: https://unsplash.com/@kimdonkey-->
+                  </picture>
+                </a>
+                <a href="#" class="work-button">
+                  see project
+                </a>
+                <a href="#" class="overlay"></a>
+              </div>
+              <h3 class="work-name">coffee</h3>
+            </li>
+            <li class="work-card">
+              <div class="work-link" href="#">
+                <a href="#">
+                  <picture>
+                    <source srcset="img/martine-jacobsen-341487-unsplash-small.jpg, img/martine-jacobsen-341487-unsplash-small_2x.jpg 2x">
+                    <img src="img/martine-jacobsen-341487-unsplash-small.jpg" alt="stone framework">
+                    <!--Credits: https://unsplash.com/@martijaco-->
+                  </picture>
+                </a>
+                <a href="#" class="work-button">
+                  see project
+                </a>
+                <a href="#" class="overlay"></a>
+              </div>
+              <h3 class="work-name">stone</h3>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <!--Footer styling inspired by http://mattfarley.ca/-->
+        <p>designed and made by me © 2018.</p>
+        <div class="social-links">
+          <a href="https://github.com/bigfatpartyguy" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/maxim.morozov.71" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/maxim-morozov-b48006141/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://stackoverflow.com/users/9316041/maxim-morozov" target="_blank">
+            <i class="fab fa-stack-overflow"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+<!--Scripts to load after document is loaded-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/design.js"></script>
+  </body>
+</html>
